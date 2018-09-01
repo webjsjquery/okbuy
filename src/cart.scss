@@ -1,0 +1,1629 @@
+@import "common";
+
+/*top*/
+.top{
+    height:85px;
+    overflow:heidden;
+    width:100%;
+        .top-con{
+            height:85px;
+            width:1423px;
+            margin:0 auto;
+                .top-l{
+                     width: 712px;
+                     height: 85px;
+                     float: left;
+                    
+                }
+                img{
+                    width:712px;
+                    height:85px;
+                }
+                .top-r{
+                    width: 711px;
+                    height: 85px;
+                    float: left;
+                   
+                }
+        }
+}
+
+/*nav1*/
+.nav1{
+    height:30px;
+    background:#f5f5f5;
+     .nav1-con{
+         height:30px;
+         width:1204px;
+         margin:0 auto;
+         
+         position: relative;
+            .nav-right{
+                height:30px;
+                width:560px;
+                position: absolute;
+                left:645px;
+                top:0;
+                
+                ul{position: relative;
+                    li{
+                        float:left;
+                        margin-top:6px;
+                        font-size:12px;
+                    }
+                    #login{
+                       display:block;
+                       height:16px;
+                       width:26px;
+                       font-size:12px;
+                       padding-right:12px;
+                       border-right:solid 1px #e1d6de;
+                       
+                    }
+                    #register{
+                        display:block;
+                       height:16px;
+                       width:26px;
+                       font-size:12px;
+                       padding-left:12px;
+                       
+                    }
+                    #my{
+                        display:block;
+                        font-size:12px;
+                        margin-left:22px;
+                        position: relative;
+                        padding-right:32px;
+                         border-right:solid 1px #e1d6de;
+                            i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                background-image: url(../images/jiantou_03.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        left:68px;
+                        top:5px;
+                            }
+                    }
+                    /*鼠标滑过，二级菜单*/
+                    #ul1{
+                        position: absolute;
+                        left:94px;
+                        top:0px;
+                        width:67px;
+                        height:110px;
+                        font-size:12px;
+                        background:#FFFFFF;
+                        display:none;
+                       border:solid #dcdcdc 1px;
+                        padding:5px 20px 8px 10px;
+                            i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                position: absolute;
+                                left:77px;
+                                top:17px;
+                                background-image: url(../images/daosanjiao_03.png);
+                                background-repeat: no-repeat;
+                                
+                            }
+                    }
+                    #phone{
+                        display:block;
+                        margin-left:22px;
+                        position: relative;
+                        padding-right:32px;
+                         border-right:solid 1px #e1d6de;
+                         i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                background-image: url(../images/jiantou_03.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        left:68px;
+                        top:5px;
+                            }
+                    }
+                    #ul2{
+                         position: absolute;
+                        left:192px;
+                        top:0px;
+                        width:80px;
+                        height:116px;
+                        background:#FFFFFF;
+                        border:solid #dcdcdc 1px;
+                       display: none;
+                        padding:0px 20px 8px 23px;
+                        i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                position: absolute;
+                                left:90px;
+                                top:12px;
+                                background-image: url(../images/daosanjiao_03.png);
+                                background-repeat: no-repeat;
+                                
+                            }
+                    }
+                    
+                    #care{
+                        display:block;
+                        margin-left:12px;
+                        position: relative;
+                        padding-right:32px;
+                         border-right:solid 1px #e1d6de;
+                         i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                background-image: url(../images/jiantou_03.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        left:68px;
+                        top:5px;
+                            }
+                    }
+                    #ul4{
+                         position: absolute;
+                        left:292px;
+                        top:0px;
+                        width:73px;
+                        height:116px;
+                        background:#FFFFFF;
+                        border:solid #dcdcdc 1px;
+                       display:none;
+                        padding:0px 20px 8px 23px;
+                        i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                position: absolute;
+                                left:90px;
+                                top:12px;
+                                background-image: url(../images/daosanjiao_03.png);
+                                background-repeat: no-repeat;
+                                
+                            }
+                    }
+                    #kehu{
+                         display:block;
+                        margin-left:12px;
+                        position: relative;
+                        padding-right:32px;
+                         border-right:solid 1px #e1d6de;
+                         i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                background-image: url(../images/jiantou_03.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        left:68px;
+                        top:5px;
+                            }
+                    }
+                    #ul3{
+                        position: absolute;
+                        left:405px;
+                        top:0px;
+                        width:67px;
+                        height:110px;
+                        font-size:12px;
+                        background:#FFFFFF;
+                        display:none;
+                       border:solid #dcdcdc 1px;
+                        padding:5px 20px 8px 15px;
+                            i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                position: absolute;
+                                left:77px;
+                                top:17px;
+                                background-image: url(../images/daosanjiao_03.png);
+                                background-repeat: no-repeat;
+                                
+                            }
+                    }
+                    #gonggao{
+                        display:block;
+                        margin-left:12px;
+                        position: relative;
+                        i{
+                                display:block;
+                                height:6px;
+                                width:10px;
+                                background-image: url(../images/jiantou_03.png);
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        left:28px;
+                        top:5px;
+                            }
+                    }
+                    #ul5{
+                        height:71px;
+                        width:197px;
+                        position: absolute;
+                        left:322px;
+                        top:30px;
+                        border:solid #dcdcdc 1px;
+                        padding:5px 20px 8px 15px;
+                        font-size:12px;
+                        display: none;
+                    }
+                    
+                }
+            }
+     }
+}
+
+//logo
+.logo{
+    height:110px;
+    background: #f5f5f5;
+       border-top:#dcdcdc solid 1px;
+    .logo-con{
+        height:110px;
+        width:1195px;
+        margin:0 auto;
+        position: relative;
+        background:#f5f5f5;
+        h1{
+            
+        }
+        //搜索条
+        .box{
+            height:32px;
+            width:474px;
+            border:#da0056 solid 2px;
+            position: absolute;
+            left:338px;
+            top:29px;
+            position: absolute;
+            left:338px;
+            top:28px;
+             #look{
+                 width:372px;
+                 height:30px;
+             }
+             #btn{
+                 display:block;
+                 height:32px;
+                 width:100px;
+                 background:#da0056;
+                 font-size:16px;
+                 text-align: center;
+                 line-height: 30px;
+                 color:#FFFFFF;
+                 position: absolute;
+                 left:374px;
+                 top:0;
+                 i{
+                     height:16px;
+                     width:18px;
+                     position: absolute;
+                     left:16px;
+                     top:9px;
+                     background-image: url(../images/sousuo_07.png);
+                     background-repeat: no-repeat;
+                 }
+             }
+        }
+        
+        //搜索条下的文字
+        #ul1{
+            height:16px;
+            width:425px;
+            position: absolute;
+            left:338px;
+            top:75px;
+           
+                li{
+                    float: left;
+                    margin-right:11px;
+                    a{
+                        font-size:12px;
+                        color:#858585;
+                    }
+                }
+        }
+        
+        #car{
+            width:250px;
+            height:32px;
+            background:#ffd974;
+            position: absolute;
+            left:942px;
+            top:32px;
+            #car1{
+                display: block;
+                height:32px;
+                width:71px;
+                background:#ffd974;
+                background-image: url(../images/cartbtnbg.png);
+                background-repeat: no-repeat;
+                background-position-x: 20px;
+                background-position-y: 5px;
+            }
+            #car2{
+                height:28px;
+                width:176px;
+                position: absolute;
+                left:72px;
+                top:2px;
+                background:#FFFFFF;
+                font-size:12px;
+                text-align: center;
+                line-height: 28px;
+                    #car3{
+                        color:#d1096c;
+                    }
+            }
+        }
+        
+        
+        
+    }
+    
+}
+
+/*nav导航栏*/
+
+.nav{
+    height:40px;
+    background:#000000;
+    #nav-con{
+        height:40px;
+        width:1195px;
+        margin:0 auto;
+        position: relative;
+        #ul1{
+            height:40px;
+            width:800px;
+            position: relative;
+            li{
+                float:left;
+                a{
+                    height:40px;
+                   color:#FFFFFF;
+                    font-size:14px;
+                    text-align: center;  
+                    line-height: 40px;;                 
+                }
+            }
+            #a1{
+                height:40px;
+                width:100px;
+                background:#d60056;
+            }
+            #a2{
+                height::40px;
+                width:122px;
+                
+                position: relative;
+                img{
+                    height:46px;
+                    width:122px;
+                    position: absolute;
+                    left:0;
+                    top:-6px;
+                }
+            }
+            /*运动生活*/
+            #a3{
+                margin-left:24px;
+                color:red;
+               
+            }
+            
+            
+            
+            #a5{
+                margin-right:83px;
+            }
+            #a3,#a4,#a6{
+                margin-right:45px;
+            }
+            #ball{
+                display:block;
+                height:40px;
+                width:33px;
+                position: absolute;
+                left:550px;
+                top:0px;
+                background-image: url(../images/7de29d4226bbf3855eb7eca34a680cc5.gif);
+                background-repeat: no-repeat;
+            }
+        }
+        
+        /*运动生活鼠标移入*/
+        #sport{
+                height:397px;
+                width:1124px;
+                background:#FFFFFF;
+                position:absolute;
+                left:0px;
+                top:40px;
+                display: none;
+                #sport-l{
+                    height:386px;
+                    width:384px;
+                    padding-top:12px;
+                    float:left;
+                    background:#FFFFFF;
+                    #Buybrand{
+                        color:#d70057;
+                        margin:13px 0 0 13px;
+                        font-size:12px;
+                    }
+                    #sneaker{
+                        display:block;
+                        margin:15px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:52px;
+                            width:334px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:13px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    //运动服
+                    #sports{
+                        display:block;
+                        margin:15px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:52px;
+                            width:349px;
+                            margin-top:12px;
+                            
+                            li{
+                                float:left;
+                                margin-right:34px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                           
+                        }
+                      
+                    }
+                    
+                    //儿童专区
+                    
+                    #children{
+                        display:block;
+                        margin:20px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:16px;
+                            width:314px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:15px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                           
+                        }
+                      
+                    }
+                  // 周边 
+                    #rim{
+                        display:block;
+                        margin:20px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:34px;
+                            width:314px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:15px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                           
+                        }
+                      
+                    }
+                    
+                }
+                
+                //sport中间部分样式
+                #sport-con{
+                    width:474px;
+                    height:385px;
+                    
+                    position: relative;
+                    float:left;
+                    padding-top:12px;
+                    #buysport{
+                        color:#d70057;
+                        margin:13px 0 0 13px;
+                        font-size:12px;
+                    }
+                    #summer{
+                         display:block;
+                        margin:14px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:34px;
+                            width:445px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:13px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                           
+                        }                        
+                    }
+                    #runsport{
+                        display:block;
+                        margin:0px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:56px;
+                            width:405px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:15px;
+                                font-size:12px;
+                                line-height: 20px;
+                            }
+                           
+                        }         
+                    }
+                    
+                   //球类运动分行有错误 
+                    #ballsport{
+                        display:block;
+                        margin:20px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:56px;
+                            width:310px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:15px;
+                                font-size:12px;
+                                line-height: 20px;
+                                
+                            }
+                            
+                           
+                        }
+                          
+                    }
+                   
+                   //健身 
+                    #fitness{
+                        display:block;
+                        margin:20px 0 0 13px;
+                        font-size:12px;
+                        ul{
+                            height:16px;
+                            width:430px;
+                            margin-top:16px;
+                            
+                            li{
+                                float:left;
+                                margin-right:12px;
+                                font-size:12px;
+                                line-height: 16px;                               
+                            }                         
+                        }
+                          
+                    }    
+                }
+                
+                #sport-r{
+                    height:385px;
+                    width:265px;
+                    float:left;
+                   
+                    padding-top:12px;
+                    #brand2{
+                        color:#d70057;
+                        margin:13px 0 0 13px;
+                        font-size:12px;
+                    }
+                    #brand2ul2{
+                        height:357px;
+                        width:243px;
+                        margin-top:16px;
+                        margin-left:12px;
+                    }
+                }
+            }
+    }
+}
+
+
+
+//购物车
+
+.cart{
+    min-height:529px;
+    display: block;
+    background:#f5f5f5;
+    
+    .cart-con{
+        width:1200px;
+        min-height:244px;
+        background:#f5f5f5;
+        margin:0 auto;
+        .cart-tit{
+            border-bottom: #d70057 solid 2px;
+            height: 60px;
+            line-height: 60px;
+            margin-top: 12px;
+            font-size: 24px;
+        }
+        
+        //点击登陆
+        
+        .cartlogin{
+            
+           
+            display:block;
+            height:110px;
+            width:1200px;
+            text-align: center;
+            margin-top: 45px;
+            border: 1px solid #e8e8e8;
+            padding-top: 26px;
+            
+            
+            a{
+                    display: block;
+                    height: 30px;
+                    width: 120px;
+                    background: #d70057;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 30px;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    margin-bottom: 26px;
+            }
+            
+            
+        }
+        
+        .nullcart{
+            display: block;
+            height:284px;
+            background:#f5f5f5;
+            img{
+                width:181px;
+                height:172px;
+                margin: 40px 0 0 317px;
+    float: left;
+            }
+            
+            .nullcartright{
+                float: left;
+                height: 172px;
+                margin: 40px 0 0 010px;
+                padding-top: 30px;
+                p{
+                        font-size: 30px;
+    line-height: 48px;
+    color: #999;
+                }
+                
+                .right1{
+                    float: left;
+                    width: 168px;
+                    height: 49px;
+                    border: 1px solid #ccc;
+                    color: #999;
+                    text-align: center;
+                    line-height: 49px;
+                    display: block;
+                    margin-right: 10px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .right2{
+                        float: left;
+    width: 168px;
+    height: 49px;
+    border: 1px solid #ccc;
+    color: #999;
+    text-align: center;
+    line-height: 49px;
+    display: block;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+                }
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        //购物车添加后
+        
+        .list{
+            display:none;
+            width:1200px;
+            min-height:100px;
+            background:#FFFFFF;
+            .header1{
+                table{
+                    width: 100%;
+background: #fff;
+                    
+                    thead{
+                        
+                        tr{
+                            
+                            th{
+                                height: 77px;
+                                vertical-align: middle;
+                                text-align: center;
+                                border-bottom: 1px solid #e8e8e8;
+                                background: #fff;
+                                
+                                   .allcur{
+    background: url("http://0.js.al.okbuycdn.com/resources/images/v6/cart/checkbox.png") -20px 0 no-repeat;
+                                
+
+                                
+                            }
+                            
+                            
+                            
+                            
+                            }
+                        }
+                    }
+                }
+                
+                
+                
+
+                
+            }
+            
+            
+            
+            
+            
+            //商品列表
+            .tejia{
+                width:1200px;
+                height:222px;
+                
+                .top1{
+                    height:40px;
+                    width:1090px;
+                    border-bottom: 1px dashed #CCCCCC;
+                    margin-left:110px;
+                    background:#FFFFFF;
+                    lin-height:71px;
+                    padding-top:35px;
+                    span{
+                        display: inline-block;
+                            background: #d70057;
+                            color: #fff;
+                            padding: 0 5px;
+                            height: 20px;
+                            border-radius: 4px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-right: 10px;
+                    }
+                }
+                
+                .top-2{
+                    height:151px;
+                    width:1200px;
+                    background:#FFFFFF;
+                    border-bottom: 1px solid #CCCCCC;
+                    
+                    //单选按钮
+                    .top-con1{
+                        height:151px;
+                        width:110px;
+                        float: left;
+                       
+                        span{
+                            display:block;
+                            width:20px;
+                            height:20px;
+                            margin-top:65px;
+                            margin-left:45px;
+                            border:1px solid #000000;
+                            background-image: url(../images/checkbox.png);
+                            background-repeat: no-repeat;
+                            background-position: -20px 0px;
+                        }
+                    }
+                    
+                    //商品详情
+                    
+                    .top-con2{
+                        height:151px;
+                        width:470px;
+                        float: left;
+                        a{
+                            height:92px;
+                            width:460px;
+                            margin-left:0px;
+                            margin-top:30px;
+                            float:left;
+                            
+                            img{
+                                width:92px;
+                                height:92px;
+                                border:1px solid #000000;
+                                float:left;
+                            }
+                            strong{
+                                font-weight: normal;
+                                font-size: 14px;
+                                margin-top: 26px;
+                                float: left;
+                                display: block;
+                                width: 340px;
+                                margin-left: 20px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                            small{
+                                font-size: 14px;
+                                color: #999;
+                                float: left;
+                                display: block;
+                                width: 340px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+                                i{
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                    
+                    
+                   //商品价格
+                   
+                   .price1{
+                       float:left;
+                       height:41px;
+                       width:65px;
+                       padding:55px 45px;
+                       font-size:16px;
+                       
+                       
+                   }
+                   //数量
+                   .num1{
+                       height:96px;
+                       width:200px;
+                       float:left;
+                       padding-top:55px;
+                       ul{
+                           li{
+                               height:40px;
+                               width:46px;
+                               background:#e8e8e8;
+                               line-height: 40px;
+                               text-align: center;
+                               font-size:16px;
+                               float:left;
+                               
+                           }
+                           .num-con1{
+                               height:40px;
+                               width:84px;
+                               background:#FFFFFF;
+                           }
+                       }
+                   }
+                   
+                   //小计
+                   .small-add{
+                       float:left;
+                       height:41px;
+                       width:21px;
+                       padding:55px 45px;
+                       font-size:16px;
+                       color:#d70057;
+                   }
+                   
+                   //操作
+                   .caozuo{
+                       height:96px;
+                       width:39px;
+                       padding-top:55px;
+                       padding-left:40px;
+                       float:left;
+                       .dele1{
+                           height:20px;
+                           display:block;
+                           width:20px;
+                           border:1px solid #CCCCCC;
+                           float:left;
+                           background-image: url(../images/carticon.png);
+                           background-repeat: no-repeat;
+                           background-position: -54px 3px;
+                       }
+                       
+                       
+                       .dele2{
+                           height:20px;
+                           width:20px;
+                           
+                           display: none;
+                           border:1px solid #CCCCCC;
+                           float:left;
+                           background-image: url(../images/carticon.png);
+                           background-repeat: no-repeat;
+                           background-position: -80px 3px;
+                       }
+                       
+                   }
+                }
+            }
+            
+            
+            
+            
+            //第二件
+            //商品列表
+            .tejia2{
+                width:1200px;
+                height:151px;
+            
+                
+                
+                .top-2{
+                    height:151px;
+                    width:1200px;
+                    background:#FFFFFF;
+                    border-bottom: 1px solid #CCCCCC;
+                    
+                    //单选按钮
+                    .top-con2{
+                        height:151px;
+                        width:110px;
+                        float: left;
+                        
+                        span{
+                            display:block;
+                            width:20px;
+                            height:20px;
+                            margin-top:65px;
+                            margin-left:45px;
+                            border:1px solid #000000;
+                            background-image: url(../images/checkbox.png);
+                            background-repeat: no-repeat;
+                            background-position: -20px 0px;
+                        }
+                    }
+                    
+                    //商品详情
+                    
+                    .top-con3{
+                        height:151px;
+                        width:470px;
+                        float: left;
+                        a{
+                            height:92px;
+                            width:460px;
+                            margin-left:0px;
+                            margin-top:30px;
+                            float:left;
+                            
+                            img{
+                                width:92px;
+                                height:92px;
+                                border:1px solid #000000;
+                                float:left;
+                            }
+                            strong{
+                                font-weight: normal;
+                                font-size: 14px;
+                                margin-top: 26px;
+                                float: left;
+                                display: block;
+                                width: 340px;
+                                margin-left: 20px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                            small{
+                                font-size: 14px;
+                                color: #999;
+                                float: left;
+                                display: block;
+                                width: 340px;
+                                margin-left: 20px;
+                                margin-top: 10px;
+                                i{
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                    
+                    
+                   //商品价格
+                   
+                   .price2{
+                       float:left;
+                       height:41px;
+                       width:65px;
+                       padding:55px 45px;
+                       font-size:16px;
+                       
+                       
+                   }
+                   //数量
+                   .num2{
+                       height:96px;
+                       width:200px;
+                       float:left;
+                       padding-top:55px;
+                       ul{
+                           li{
+                               height:40px;
+                               width:46px;
+                               background:#e8e8e8;
+                               line-height: 40px;
+                               text-align: center;
+                               font-size:16px;
+                               float:left;
+                               
+                           }
+                           .num-con1{
+                               height:40px;
+                               width:84px;
+                               background:#FFFFFF;
+                           }
+                       }
+                   }
+                   
+                   //小计
+                   .small-add2{
+                       float:left;
+                       height:41px;
+                       width:21px;
+                       padding:55px 45px;
+                       font-size:16px;
+                       color:#d70057;
+                   }
+                   
+                   //操作
+                   .caozuo1{
+                       height:96px;
+                       width:39px;
+                       padding-top:55px;
+                       padding-left:40px;
+                       float:left;
+                       .dele1{
+                           height:20px;
+                           display:block;
+                           width:20px;
+                           border:1px solid #CCCCCC;
+                           float:left;
+                           background-image: url(../images/carticon.png);
+                           background-repeat: no-repeat;
+                           background-position: -54px 3px;
+                       }
+                       
+                       
+                       .dele2{
+                           height:20px;
+                           width:20px;
+                           
+                           display: none;
+                           border:1px solid #CCCCCC;
+                           float:left;
+                           background-image: url(../images/carticon.png);
+                           background-repeat: no-repeat;
+                           background-position: -80px 3px;
+                       }
+                       
+                   }
+                }
+            }
+            
+            
+            .total{
+                height:60px;
+                margin-top:20px;
+               
+                .total-con1{
+                    width:64px;
+                    height:40px;
+                    float:left;
+                    background:#FFFFFF;
+                    padding-top:20px;
+                    padding-left:46px;
+                    .span1{
+                        display:block;
+                        float:left;
+                        height:20px;
+                        width:20px;
+                        background-image: url(../images/checkbox.png);
+                            background-repeat: no-repeat;
+    background-position: -20px 0px;
+    border:1px solid #CCCCCC;
+                    }
+                    
+                    
+                    .span2{
+                        float:left;
+                        display:block;
+                        font-size:16px;
+                    }
+                    
+                }
+                
+                .total-con2{
+                    width:100px;
+                    height:60px;
+                    float:left;
+                    font-size:14px;
+                    text-align: center;
+                    line-height: 60px;
+                }
+                
+                
+                .num{
+                    height:60px;
+                    width:100px;
+                    margin-left:238px;
+                    font-size:14px;
+                    text-align: center;
+                    line-height: 60px;
+                    float:left;
+                }
+                
+                
+                .price{
+                    width:140px;
+                    height:60px;
+                    font-size:14px;
+                    text-align: center;
+                    line-height: 60px;
+                    float:left;
+                    
+                    
+                }
+                
+                
+                .youhui{
+                    height:60px;
+                    width:130px;
+                    font-size:14px;
+                    text-align: center;
+                    line-height: 60px;
+                    float:left;
+                    
+                }
+                
+                .all{
+                    width:220px;
+                    font-size:14px;
+                    text-align: center;
+                    line-height: 60px;
+                    float:left;
+                    .all-num{
+                        font-size: 24px;
+                        line-height: 10px;
+                        color:#d70057;
+                        font-weight: bold;
+                    }
+                }
+                
+                .over{
+                    width:160px;
+                    height: 60px;
+display: block;
+text-align: center;
+color: #fff;
+font-size: 24px;
+float:left;
+line-height: 60px;
+background:#d70057;
+
+                    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom1{
+    height:302px;
+    background:#e6e6e6;
+    border-top:2px solid #a5a5a5;
+    #bottom1-con{
+        width:1200px;
+        height:302px;
+    
+        margin:0 auto;
+        position: relative;
+        #qr{
+            height:150px;
+            width:560px;
+            position: absolute;
+            left:2px;
+            top:28px;
+            background:#FFFFFF;
+            #qr1{
+                position: absolute;
+                left:94px;
+                top:20px;
+                height:116px;
+                width:116px;
+                flost:left;
+                
+                img{
+                    height:88px;
+                    width:88px;
+                    position: absolute;
+                    left:15px;
+                    top:0px;
+                    margin-bottom: 14px;
+                }
+                span{
+                    font-size:14px;
+                    position: absolute;
+                    left:0px;
+                    top:100px;
+                }
+            }
+            
+            #qr2{
+                position: absolute;
+                left:340px;
+                top:20px;
+                height:116px;
+                width:116px;
+                flost:left;
+                
+                img{
+                    height:88px;
+                    width:88px;
+                    position: absolute;
+                    left:15px;
+                    top:0px;
+                    margin-bottom: 14px;
+                }
+                span{
+                    font-size:14px;
+                    position: absolute;
+                    left:0px;
+                    top:100px;
+                }
+            }           
+        }
+        #guide{
+                height:111px;
+                width:123px;
+                position: absolute;
+                left:622px;
+                top:28px;
+                background:#FFFFFF;
+                span{
+                    display: block;
+                    height:24px;
+                    width:123px;
+                    color:#a2c5e3;
+                    font-size:12px;
+                    text-align: center;
+                    line-height: 24px;;
+                }
+                ul{
+                    height:87px;
+                    width:121px;
+                    position: absolute;
+                    left:2px;
+                    top:24px;
+                    background:#e7e7e7;
+                    padding-left:20px;
+                    padding-top:15px;
+                    li{
+                       
+                        font-size:12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            
+            #guide2{
+                height:111px;
+                width:123px;
+                position: absolute;
+                left:770px;
+                top:28px;
+                background:#FFFFFF;
+                span{
+                    display: block;
+                    height:24px;
+                    width:123px;
+                    color:#a2c5e3;
+                    font-size:12px;
+                    text-align: center;
+                    line-height: 24px;;
+                }
+                ul{
+                    height:87px;
+                    width:121px;
+                    position: absolute;
+                    left:2px;
+                    top:24px;
+                    background:#e7e7e7;
+                    padding-left:20px;
+                    padding-top:15px;
+                    li{
+                       
+                        font-size:12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            
+            #guide3{
+                height:111px;
+                width:123px;
+                position: absolute;
+                left:920px;
+                top:28px;
+                background:#FFFFFF;
+                span{
+                    display: block;
+                    height:24px;
+                    width:123px;
+                    color:#a2c5e3;
+                    font-size:12px;
+                    text-align: center;
+                    line-height: 24px;;
+                }
+                ul{
+                    height:87px;
+                    width:121px;
+                    position: absolute;
+                    left:2px;
+                    top:24px;
+                    background:#e7e7e7;
+                    padding-left:20px;
+                    padding-top:15px;
+                    li{
+                       
+                        font-size:12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            
+            #guide4{
+                height:111px;
+                width:123px;
+                position: absolute;
+                left:1070px;
+                top:28px;
+                background:#FFFFFF;
+                span{
+                    display: block;
+                    height:24px;
+                    width:123px;
+                    color:#a2c5e3;
+                    font-size:12px;
+                    text-align: center;
+                    line-height: 24px;;
+                }
+                ul{
+                    height:87px;
+                    width:121px;
+                    position: absolute;
+                    left:2px;
+                    top:24px;
+                    background:#e7e7e7;
+                    padding-left:20px;
+                    padding-top:15px;
+                    li{
+                       
+                        font-size:12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            
+            #pic1{
+                position: absolute;
+                left:388px;
+                top:222px;
+                border:1px solid #bbbbb9;
+                img{
+                    height:36px;
+                    width:108px;
+                }
+                
+            }
+            
+            #pic2{
+                position: absolute;
+                left:520px;
+                top:222px;
+                border:1px solid #bbbbb9;
+                img{
+                    height:36px;
+                    width:50px;
+                }
+                
+            }
+            
+            #pic3{
+                position: absolute;
+                left:593px;
+                top:222px;
+                border:1px solid #bbbbb9;
+                img{
+                    height:36px;
+                    width:103px;
+                }
+                
+            }
+            
+            #pic4{
+                position: absolute;
+                left:723px;
+                top:222px;
+                border:1px solid #bbbbb9;
+                img{
+                    height:36px;
+                    width:88px;
+                }
+                
+            }
+            
+            #introduce{
+                position:absolute;
+                left:485px;
+                top:275px;
+                li{
+                    font-size:12px;
+                    float:left;
+                    margin-right:14px;
+                }
+            }
+    }
+}
+
+#bottom2{
+    height:24px;
+    background:black;
+    #bottom2-con{
+        height:24px;
+        width:1007px;
+        
+       margin-left:251px;
+        span{
+            color:#8e958e;
+            font-size:12px;
+            line-height: 24px;;
+            margin-right:18px;
+            float:left;
+        }
+        h2{
+            color:#8e958e;
+            font-size:12px;
+            line-height: 24px;;
+            margin-right:18px;
+            float:left;
+        }
+        h3{
+            color:#8e958e;
+            font-size:12px;
+            line-height: 24px;;
+            margin-right:18px;
+            float:left;
+        }
+        h4{
+            color:#8e958e;
+            font-size:12px;
+            line-height: 24px;;
+            margin-right:18px;
+            float:left;
+        }
+    }
+}

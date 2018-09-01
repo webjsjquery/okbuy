@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/register.css">
+		<script src="js/form.js"></script>
+		<script src = "js/jquery-1.11.1.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-con">
+				<h1>
+					<a href="#"><img src="http://0.js.al.okbuycdn.com/resources/images/v6/login/login_new_logo.png" alt=""></a>
+				</h1>
+				<!--顶部小文本、小背景图-->
+				<div>
+					<div class="mintext">
+						<span class="min1">
+							<i></i>
+							天天低价
+						</span>
+
+						<span class="min2"><i></i>正品保障</span>
+
+						<span class="min3">
+							<i></i>
+							15天退换货
+						</span>
+
+						<span class="min4">
+							<i></i>
+							评价晒单有礼
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--背景图-->
+			<div class="bg">
+				
+				<!--背景版图-->
+				<a href="#">
+					
+					<img src="images/c53725066a9b8d0c0d667e5809e7f7a3.jpg" alt="">
+				</a>
+					
+				<form class="loginwarpper" action="php/doinsert.php" method = 'post' enctype = 'application/x-www-form-urlencoded'>
+					
+					<span class="welcome"><b>欢迎注册</b></span>
+
+					<span id="log"><a href="#">登陆</a></span>
+
+					<input type="text" id="uname" name="username" placeholder="请输入手机号码">
+					<span id = "usernamespan"></span>
+
+					<input type="password" id="password" name="password" placeholder="请设置密码">
+					<span id="show" id="togglePassword"></span>
+
+					
+					<span id="passwordspan">6-16个字符，建议字母、数字、符号组成</span>
+					<p class="verify">
+						<input type="text" placeholder="图形验证码">
+
+						<img id="getcode_img" width="100" src="http://www.okbuy.com/verify/getcode?time=1530516678">
+					</p>
+
+					<input id = 'register' type = "submit" value="注册"></input>
+
+					<p class="protocol">注册即视为同意<span>好乐买隐私协议</span></p>
+
+				</form>
+
+
+
+			<div class="footer">
+				<div class="minifooter">
+				Copyright © 2007-2018 OkBuy.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天津好乐买信息技术有限公司&nbsp;&nbsp;津B2-20140020&nbsp;&nbsp;京公网安备&nbsp;110105006859</div>
+				
+			</div>
+	</body>
+
+	
+</html>

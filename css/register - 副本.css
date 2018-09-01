@@ -1,0 +1,165 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.top {
+  height: 120px; }
+  .top .top-con {
+    height: 100px;
+    width: 1205px;
+    margin: 0 auto;
+    position: relative; }
+    .top .top-con .mintext {
+      width: 550px;
+      position: absolute;
+      right: 0px;
+      top: 45px;
+      font-size: 16px; }
+      .top .top-con .mintext span {
+        margin-left: 63px; }
+      .top .top-con .mintext .min1 {
+        margin-left: 0; }
+
+.bg {
+  height: 560px;
+  background: pink;
+  width: 1205px;
+  margin-left: -280px;
+  position: relative; }
+  .bg .loginwarpper {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+    background: #FFFFFF; }
+    .bg .loginwarpper .welcome {
+      display: block;
+      height: 24px;
+      width: 96px;
+      position: absolute;
+      left: 30px;
+      top: 35px;
+      font-size: 24px; }
+    .bg .loginwarpper #log {
+      display: block;
+      height: 12px;
+      width: 28px; }
+      .bg .loginwarpper #log a {
+        color: #e41f57;
+        font-size: 12px;
+        position: absolute;
+        top: 34px;
+        right: 30px; }
+    .bg .loginwarpper #uname {
+      height: 50px;
+      width: 337px;
+      padding-left: 10px;
+      position: absolute;
+      left: 30px;
+      top: 90px; }
+    .bg .loginwarpper #usernamespan {
+      position: absolute;
+      left: 35px;
+      top: 150px;
+      font-size: 12px; }
+    .bg .loginwarpper #password {
+      height: 50px;
+      width: 337px;
+      padding-left: 10px;
+      position: absolute;
+      left: 30px;
+      top: 173px; }
+    .bg .loginwarpper #passwordspan {
+      position: absolute;
+      left: 35px;
+      top: 230px;
+      color: #99a5c2;
+      font-size: 12px;
+      display: none; }
+    .bg .loginwarpper .verify {
+      position: absolute;
+      left: 30px;
+      top: 255px;
+      height: 50px;
+      width: 175px; }
+      .bg .loginwarpper .verify input {
+        width: 175px;
+        height: 50px;
+        padding-left: 10px; }
+      .bg .loginwarpper .verify img {
+        height: 36px;
+        width: 100px;
+        position: absolute;
+        left: 239px;
+        top: 8px; }
+    .bg .loginwarpper #register {
+      height: 50px;
+      width: 338px;
+      position: absolute;
+      left: 30px;
+      top: 337px;
+      background: #d70057;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF; }
+    .bg .loginwarpper .protocol {
+      height: 15px;
+      width: 172px;
+      position: absolute;
+      left: 30px;
+      top: 397px;
+      font-size: 12px; }
+      .bg .loginwarpper .protocol span {
+        color: #d70057; }
+
+.footer {
+  height: 140px;
+  width: 1440px;
+  position: relative; }
+  .footer .minifooter {
+    width: 766px;
+    height: 12px;
+    position: absolute;
+    left: 353px;
+    top: 88px;
+    font-size: 12px;
+    color: #99a5c2; }

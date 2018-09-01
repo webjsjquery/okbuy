@@ -1,0 +1,222 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.top {
+  height: 120px; }
+  .top .top-con {
+    height: 100px;
+    width: 1205px;
+    margin: 0 auto;
+    position: relative; }
+    .top .top-con .mintext {
+      width: 673px;
+      position: absolute;
+      right: 0px;
+      top: 45px;
+      font-size: 16px; }
+      .top .top-con .mintext span {
+        margin-left: 63px;
+        background-image: url(../images/top_03.png);
+        background-repeat: no-repeat;
+        padding-left: 25px; }
+
+.bg {
+  height: 560px;
+  background: pink;
+  width: 1205px;
+  margin-left: -280px;
+  position: relative; }
+  .bg .loginwarpper {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+    background: #FFFFFF; }
+    .bg .loginwarpper .login {
+      display: block;
+      height: 26px;
+      width: 104px;
+      position: absolute;
+      left: 45px;
+      top: 30px;
+      font-size: 24px;
+      color: #d70057;
+      padding-right: 47px;
+      border-right: 1px solid #e0e0e0; }
+    .bg .loginwarpper .two {
+      display: block;
+      height: 26px;
+      width: 104px;
+      position: absolute;
+      left: 245px;
+      top: 30px;
+      font-size: 24px; }
+    .bg .loginwarpper #uname {
+      height: 50px;
+      width: 337px;
+      padding-left: 10px;
+      position: absolute;
+      left: 30px;
+      top: 90px; }
+    .bg .loginwarpper #usernamespan {
+      position: absolute;
+      left: 35px;
+      top: 150px;
+      font-size: 12px; }
+    .bg .loginwarpper #password {
+      height: 50px;
+      width: 337px;
+      padding-left: 10px;
+      position: absolute;
+      left: 30px;
+      top: 173px; }
+    .bg .loginwarpper #passwordspan {
+      position: absolute;
+      left: 35px;
+      top: 230px;
+      color: #99a5c2;
+      font-size: 12px;
+      display: none; }
+    .bg .loginwarpper #register {
+      height: 50px;
+      width: 338px;
+      position: absolute;
+      left: 30px;
+      top: 250px;
+      background: #d70057;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF; }
+    .bg .loginwarpper .protocol {
+      height: 14px;
+      width: 60px;
+      position: absolute;
+      left: 305px;
+      top: 320px;
+      font-size: 12px;
+      color: #b299b2; }
+    .bg .loginwarpper .buttom {
+      height: 52px;
+      width: 400px;
+      position: absolute;
+      left: 0;
+      top: 468px;
+      background: #f6f6f6; }
+      .bg .loginwarpper .buttom ul .qq {
+        display: block;
+        height: 20px;
+        width: 20px;
+        background-image: url(../images/ui_login.png);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: -23px -58px;
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        padding-right: 8px;
+        border-right: #e0e0e0 solid 1px; }
+      .bg .loginwarpper .buttom ul .weixin {
+        display: block;
+        height: 18px;
+        width: 19px;
+        background-image: url(../images/weixin_03.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 63px;
+        top: 18px;
+        border-right: #e0e0e0 solid 1px;
+        padding-right: 8px; }
+      .bg .loginwarpper .buttom ul .zhifubao {
+        display: block;
+        height: 18px;
+        width: 19px;
+        background-image: url(../images/zhifubao_06.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 106px;
+        top: 18px;
+        border-right: #e0e0e0 solid 1px;
+        padding-right: 10px; }
+      .bg .loginwarpper .buttom ul .weibo {
+        display: block;
+        height: 18px;
+        width: 19px;
+        background-image: url(../images/weibo_08.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 150px;
+        top: 18px;
+        border-right: #e0e0e0 solid 1px;
+        padding-right: 10px; }
+      .bg .loginwarpper .buttom ul .xiaotubiao {
+        display: block;
+        height: 18px;
+        width: 19px;
+        background-image: url(../images/weibo_08.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 194px;
+        top: 18px;
+        padding-right: 10px; }
+      .bg .loginwarpper .buttom .hello {
+        display: block;
+        position: absolute;
+        left: 279px;
+        top: 18px;
+        font-size: 12px;
+        background-image: url(../images/zhuceyouli_12.png);
+        background-repeat: no-repeat;
+        padding-left: 25px; }
+
+.footer {
+  height: 140px;
+  width: 1440px;
+  position: relative; }
+  .footer .minifooter {
+    width: 766px;
+    height: 12px;
+    position: absolute;
+    left: 353px;
+    top: 88px;
+    font-size: 12px;
+    color: #99a5c2; }

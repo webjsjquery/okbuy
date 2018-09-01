@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/two.js"></script>
+		<script src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/brand.js"></script>
+		<script src="js/buysport.js"></script>
+		<script src="js/list.js"></script>		
+		<script src="js/list2.js"></script>
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<!--top-->
+		<div class="top">
+			<div class="top-con">
+				<div class="top-l">
+					<img src="images/top-l_02.png" alt="">
+					
+				</div>
+	
+				<div class="top-r">
+					<img src="images/top-r_03.png" alt="">
+					
+				</div>
+			</div>
+		
+		</div>
+			<!--nav1-->
+		<div class="nav1">
+			<div class="nav1-con">
+				<div class="nav-right">
+					<ul>
+						<li id="login">登录</li>
+						<li id = 'register'>注册</li>
+						<li id="my">我的好乐买 <i></i></li>
+						<ul id = "ul1">
+							<li>我的好乐买<i></i></li>
+						</ul>
+						<li id="phone">手机好乐买 <i></i></li>
+						<ul id="ul2">
+							<li>手机好乐买<i></i></li>
+							<li><img src="images/appqcode_2.png" alt="" /></li>
+							<li>下载客户端</li>
+						</ul>
+						<li id="care">关注好乐买 <i></i></li>
+						<ul id="ul4">
+							<li>关注好乐买<i></i></li>
+							<li><img src="images/appqcode_2.png" alt="" /></li>
+							<li>微信公众号</li>
+						</ul>
+						<li id="kehu">客户服务<i></i></li>
+						<ul id="ul3">
+							<li>客户服务<i></i></li>
+						</ul>
+				<!--待修改-->
+						<li id="gonggao">公告<i></i></li>
+						<ul id="ul5">
+							<li>好乐买运费标准调整公告</li>
+							<li>常见问题FAQ</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--logo-->
+		<div class="logo">
+			<div class="logo-con">
+				<h1><img src="images/logo.png" alt="" /></h1>
+				<!--搜索条-->
+				<p class="box">
+					<input type="text" id = "look" placeholder="运动鲜货新上架" />
+					<botton id = "btn"><i></i>搜索</botton>
+				</p>
+				<!--搜索条下的文字-->
+				<ul id="ul1">
+					<li><a href="#">短袖t恤</a></li>
+					<li><a href="#">卡洛驰</a></li>
+					<li><a href="#">斯凯奇</a></li>
+					<li><a href="#">百图</a></li>
+					<li><a href="#">Adids</a></li>
+					<li><a href="#">Zara入驻</a></li>
+					<li><a href="#">BOY LONDON新品</a></li>
+				</ul>
+		
+			
+		<!--购物车-->
+		
+			<div id="car">
+				<i id="car1"></i>
+				<p id="car2">去购物车结算<span id="car3">(0)</span></p>
+			</div>
+				
+			</div>
+		</div>
+		
+		<!--nav导航栏-->
+		<div class="nav">
+			<div id="nav-con">
+				<ul id="ul1">
+					<li><a href="#" id="a1">首页</a></li>
+					
+					<li><a href="#" id="a2"><img src="images/xianshi_03.png"/></a></li>
+					
+					<li id="a3"><a href="#">运动生活</a></li>
+			
+					
+					<li id="a4"><a href="#">休闲服饰</a></li>
+					
+					<li id="a5"><a href="#">男女名鞋</a></li>
+					
+					<li id="a6"><a href="#">全球购</a></li>
+					
+					<li id="a7"><a href="#">家居包配</a></li>
+					<span id="ball"></span>
+					
+				</ul>
+				<!--鼠标移入显示二级菜单-->
+				<div id = "sport">
+					<div id="sport-l">
+						<span id="Buybrand">品牌导购</span>
+						<span id="sneaker">
+							运动鞋
+							<ul id="sneakerul1">
+								
+							</ul>
+						</span>
+						
+				<!--运动服-->
+						<span id="sports">
+							运动服
+							<ul id="sportsul1">
+								
+							</ul>
+						</span>
+				<!--儿童-->
+				
+				<span id="children">
+					儿童专区
+					<ul id="childrenul">
+						
+					</ul>
+				</span>
+				<!--周边-->
+				<span id="rim">
+					运动周边
+					<ul id="rimul">
+						
+					</ul>
+				</span>
+					</div>
+					
+					<!--sport中间部分-->
+					
+					<div id="sport-con">
+						<span id="buysport">
+							运动导购
+						</span>
+						<span id="summer">
+							盛夏开练
+							<ul id="summerul">
+								
+							</ul>
+						</span>
+					
+						
+					<!--跑步运动-->
+						<span id="runsport">
+							跑步运动
+							<ul id="runul">
+								
+							</ul>
+						</span>
+				<!--	球类运动-->
+						<span id="ballsport">
+							球类运动
+							<ul id="ballul">
+																
+							</ul>
+						</span>
+						
+							
+						<!--健身-->
+						<span id="fitness">
+							健身/瑜伽/游泳
+							<ul id="fitnessul">
+																		
+							</ul>
+						</span>
+					</div>
+					<!--sport右边部分-->
+					
+					<div id="sport-r">
+						<span id="brand2">
+							品牌导购
+							<ul id="brand2ul2">
+								
+							</ul>
+						</span>
+					</div>
+				</div>
+				
+				<div class="">
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="cart">
+			<div class="cart-con">
+				<div class="cart-tit">
+					我的购物车
+				</div>
+				
+				
+				
+				
+				<!--点击登陆-->
+				<div class="cartlogin">
+					您还没有登录！登录后购物车的商品将保存到您的账号中
+					<a href>登录</a>
+					
+					
+				</div>
+				
+				<div class="nullcart">
+					<img src="http://0.js.al.okbuycdn.com/resources/images/v6/cart/nullcart.png" alt="" />
+					
+					
+					
+					<div class="nullcartright">
+						<p>购物车内无商品,去逛逛吧！</p>
+						
+						<a class="right1">逛逛特卖</a>
+						
+						<a class="right2">我的收藏</a>
+					</div>
+				</div>
+				<div class="clear-fix"></div>
+				
+				
+				
+				
+				
+				<!--购物车添加后-->
+				
+				<div class="list">
+					
+					
+					<!--头部-->
+					
+					<div class="header">	
+						<table>
+							<thead>
+								<tr>
+									<th width="110">
+										<span class="allcur"></span>
+										<span class="all">全选</span>
+									</th>
+									<th width="470">商品名称</th>
+									<th width="110">单价</th>
+									<th width="240">数量</th>
+									<th width="110">小计</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+		</table>
+		
+
+					</div>
+					
+					<!--//商品类表-->
+					
+					<div class="tejia">
+						
+						<div class="top1">
+
+							<span>特价</span> 
+							有好货-特权好价	
+						</div>
+						
+						<div class="top-2">
+							
+						<!--	//单选按钮-->
+							<div class="top-con1">
+								<!--<span></span>-->
+							</div>
+							<!--商品详情-->
+							<div class="top-con2">
+								
+								<!--<a>
+									<img src="" alt="" />
+									<strong>
+										Adidas三叶草女式Tubular Viral小椰子跑步鞋鞋
+									</strong>
+									
+									<small>
+										尺码
+										<i>
+											36号
+										</i>
+									</small>
+								</a>-->
+								
+							</div>
+							
+							<!--//商品价格-->
+							
+							<div class="price1">
+								<!--￥366-->
+							</div>
+							
+							<!--//数量-->
+							
+							<div class="num1">
+								<!--<ul>
+									<li>-</li>
+									<li class="num-con1">1</li>
+									<li>+</li>
+								</ul>-->
+							</div>
+							
+							
+							<!--//小计-->
+							
+							<div class="small-add">
+								<!--￥366-->
+							</div>
+							
+							
+							<!--操作-->
+							
+							<div class="caozuo">
+								<!--<span class="dele1">
+									
+								</span>
+								<span class="dele2">
+									
+								</span>-->
+							</div>
+						</div>
+						
+					</div>
+				
+				
+				
+				
+				
+				
+				<!--//商品类表-->
+					
+					<div class="tejia2">
+						
+						
+						
+						<div class="top-2">
+							
+						<!--	//单选按钮-->
+							<div class="top-con2">
+								<!--<span></span>-->
+							</div>
+							<!--商品详情-->
+							<div class="top-con3">
+								
+								<!--<a>
+									<img src="" alt="" />
+									<strong>
+										Adidas三叶草女式Tubular Viral小椰子跑步鞋鞋
+									</strong>
+									
+									<small>
+										尺码
+										<i>
+											36号
+										</i>
+									</small>
+								</a>-->
+								
+							</div>
+							
+							<!--//商品价格-->
+							
+							<div class="price2">
+								<!--￥366-->
+							</div>
+							
+							<!--//数量-->
+							
+							<div class="num2">
+								<!--<ul>
+									<li>-</li>
+									<li class="num-con1">1</li>
+									<li>+</li>
+								</ul>-->
+							</div>
+							
+							
+							<!--//小计-->
+							
+							<div class="small-add2">
+								<!--￥366-->
+							</div>
+							
+							
+							<!--操作-->
+							
+							<div class="caozuo1">
+								<!--<span class="dele1">
+									
+								</span>
+								<span class="dele2">
+									
+								</span>-->
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					
+					<!--//总计-->
+					
+					<div class="total">
+						<div class="total-con1">
+							<span class="span1">
+								
+							</span>
+							
+							<span class="span2">
+								全部
+							</span>
+						</div>
+						
+						<div class="total-con2">
+							删除所有商品
+						</div>
+						
+						<div class="num">
+							商品数量:
+						</div>
+						
+						
+						<div class="price">
+							商品金额
+						</div>
+						
+						
+						<div class="youhui">
+							优惠活动
+						</div>
+						
+						<div class="all">
+							合计(不含运费):
+							<span class="all-num">
+								718
+							</span>
+						</div>
+						
+						<div class="over">
+							去结算
+						</div>
+					</div>
+					
+					
+				</div>
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="bottom1">
+		<div id="bottom1-con">
+			<div id="qr">
+				<div id="qr1">
+					<img src="images/appqcode_2.png"/>
+					<span>
+						好乐买手机客户端
+					</span>
+				</div>
+				
+				<div id="qr2">
+					<img src="images/appqcode_2.png"/>
+					<span>
+						好乐买微信公众号
+					</span>
+				</div>
+				
+				
+			</div>
+			<div id="guide">
+					<span>
+						购物指南
+					</span>
+					<ul>
+						<li>购物流程</li>
+					    <li>订购方式</li>
+					    <li>常见问题</li>
+					</ul>
+			</div>
+			
+			<div id="guide2">
+					<span>
+						配送方式
+					</span>
+					<ul>
+						<li>快递配送</li>
+					    <li>配送时间</li>
+					    
+					</ul>
+			</div>
+			
+			<div id="guide3">
+					<span>
+						支付方式
+					</span>
+					<ul>
+						<li>支付方式</li>
+					    <li>代金券</li>
+					    
+					</ul>
+			</div>
+			
+			<div id="guide4">
+					<span>
+						售后服务
+					</span>
+					<ul>
+						<li>退换货政策</li>
+					    <li>退款说明</li>
+					    <li>联系客服</li>
+					</ul>
+			</div>
+			
+			<span id="pic1">
+				<img src="images/okbuy1-03.png"/>
+			</span>
+			
+			<span id="pic2">
+				<img src="images/okbuy1-05.png"/>
+			</span>
+			
+			<span id="pic3">
+				<img src="images/902c39b52902b3bd4ab500babad4e14a.png"/>
+			</span>
+			
+			<span id="pic4">
+				<img src="images/bjwj(3).jpg"/>
+			</span>
+			
+			<ul id="introduce">
+				<li>公司介绍</li>
+				<li>加入我们</li>
+				<li>联系我们</li>
+				<li>友情链接</li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id="bottom2">
+		<div id="bottom2-con">
+			<span>天津好乐买信息技术有限公司 Copyright © 2007-2018 OkBuy.com All Rights Reserved</span>
+			<h2>津ICP备16005872号-1</h2>
+			<h3>京公网安备110105006859</h3>
+			<h4>客服电话：400-8610-400</h4>
+		</div>
+		
+		
+		<script>
+		$(function(){
+		Brand();
+		List();
+		List2();
+	})
+		
+		/*$(".slider").YuxiSlider({
+	width:1350, //容器宽度
+	height:350, //容器高度
+	control:$('.control'), //绑定控制按钮
+	during:40000, //间隔4秒自动滑动
+	speed:800, //移动速度0.8秒
+	mousewheel:false, //是否开启鼠标滚轮控制
+	direkey:true //是否开启左右箭头方向控制
+});*/
+	</script>
+	
+	</div>
+		
+		
+		
+	</body>
+</html>

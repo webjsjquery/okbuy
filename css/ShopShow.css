@@ -1,0 +1,37 @@
+@charset "utf-8";
+html,body,ul,li,p{margin:0px;padding:0px;}
+li{list-style:none;}
+
+/* tsShopContainer */
+#tsShopContainer li,#tsShopContainer img{vertical-align:top;}
+#tsShopContainer{width:452px;
+                height:502px;
+                float:left;
+                margin-left: 29px;}
+                
+                
+#tsShopContainer #tsImgS{text-align:center;width:100%;position:relative;}
+
+#tsShopContainer #tsImgS a{display:block;text-align:center;margin:0px auto;}
+#tsShopContainer #tsImgS img{border:0px;}
+
+#tsShopContainer #tsPicContainer{width:100%;height:70px;position:relative;background:url(../images/scrollPicbg.gif) repeat-x 0px 0px;}
+
+/*向左按钮*/
+#tsShopContainer #tsPicContainer #tsImgSArrL{width:17px;height:100%;background:url(../images/picshopArr.gif) no-repeat left center;position:absolute;top:0px;left:8px;}
+
+/*向右按钮*/
+#tsShopContainer #tsPicContainer #tsImgSArrR{width:17px;height:100%;background:url(../images/picshopArr.gif) no-repeat right center;position:absolute;top:0px;right:8px;}
+
+
+#tsShopContainer #tsPicContainer #tsImgSCon{position:absolute;top:10px;left:38px;width:452px;height:70px;}
+
+/*小图ul*/
+#tsShopContainer #tsPicContainer #tsImgSCon ul{width:452px;margin-left:-10px;}
+/*小图li*/
+#tsShopContainer #tsPicContainer #tsImgSCon li{width:49px;float:left;}
+
+
+#tsShopContainer #tsPicContainer #tsImgSCon li img{border:1px solid  #e4e4e4;display:block;width:49px;height:49px;}
+
+

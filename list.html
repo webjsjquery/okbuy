@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<script src="js/jquery-1.11.1.js"></script>
+				
+		<script src="js/two.js"></script>
+		<script src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/brand.js"></script>
+		<script src="js/buysport.js"></script>
+		<script src="js/listshow.js"></script>
+		<script src="js/listjson.js"></script>
+		<script src="js/screen.js"></script>
+		
+		
+		
+		
+		
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/jquery.fly.js" ></script>
+		
+		<script type="text/javascript" src="js/requestAnimationFrame.js" ></script>
+		
+		
+		
+		<script type="text/javascript" src="js/jquery.fly.js" ></script>
+		
+		<script type="text/javascript" src="js/requestAnimationFrame.js" ></script>
+		
+		
+	</head>
+	<body>
+		
+		<!--top-->
+		<div class="top">
+			<div class="top-con">
+				<div class="top-l">
+					<img src="images/top-l_02.png" alt="">
+					
+				</div>
+	
+				<div class="top-r">
+					<img src="images/top-r_03.png" alt="">
+					
+				</div>
+			</div>
+		
+		</div>
+			<!--nav1-->
+		<div class="nav1">
+			<div class="nav1-con">
+				<div class="nav-right">
+					<ul>
+						<li id="login">登录</li>
+						<li id = 'register'>注册</li>
+						<li id="my">我的好乐买 <i></i></li>
+						<ul id = "ul1">
+							<li>我的好乐买<i></i></li>
+						</ul>
+						<li id="phone">手机好乐买 <i></i></li>
+						<ul id="ul2">
+							<li>手机好乐买<i></i></li>
+							<li><img src="images/appqcode_2.png" alt="" /></li>
+							<li>下载客户端</li>
+						</ul>
+						<li id="care">关注好乐买 <i></i></li>
+						<ul id="ul4">
+							<li>关注好乐买<i></i></li>
+							<li><img src="images/appqcode_2.png" alt="" /></li>
+							<li>微信公众号</li>
+						</ul>
+						<li id="kehu">客户服务<i></i></li>
+						<ul id="ul3">
+							<li>客户服务<i></i></li>
+						</ul>
+				<!--待修改-->
+						<li id="gonggao">公告<i></i></li>
+						<ul id="ul5">
+							<li>好乐买运费标准调整公告</li>
+							<li>常见问题FAQ</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--logo-->
+		<div class="logo">
+			<div class="logo-con">
+				<h1><img src="images/logo.png" alt="" /></h1>
+				<!--搜索条-->
+				<p class="box">
+					<input type="text" id = "look" placeholder="运动鲜货新上架" />
+					<botton id = "btn"><i></i>搜索</botton>
+				</p>
+				<!--搜索条下的文字-->
+				<ul id="ul1">
+					<li><a href="#">短袖t恤</a></li>
+					<li><a href="#">卡洛驰</a></li>
+					<li><a href="#">斯凯奇</a></li>
+					<li><a href="#">百图</a></li>
+					<li><a href="#">Adids</a></li>
+					<li><a href="#">Zara入驻</a></li>
+					<li><a href="#">BOY LONDON新品</a></li>
+				</ul>
+		
+			
+		<!--购物车-->
+		
+			<div id="car">
+				<i id="car1"></i>
+				<p id="car2">去购物车结算<span id="car3">(0)</span></p>
+			</div>
+				
+			</div>
+		</div>
+		
+		<!--nav导航栏-->
+		<div class="nav">
+			<div id="nav-con">
+				<ul id="ul1">
+					<li><a href="#" id="a1">首页</a></li>
+					
+					<li><a href="#" id="a2"><img src="images/xianshi_03.png"/></a></li>
+					
+					<li id="a3"><a href="#">运动生活</a></li>
+			
+					
+					<li id="a4"><a href="#">休闲服饰</a></li>
+					
+					<li id="a5"><a href="#">男女名鞋</a></li>
+					
+					<li id="a6"><a href="#">全球购</a></li>
+					
+					<li id="a7"><a href="#">家居包配</a></li>
+					<span id="ball"></span>
+					
+				</ul>
+				<!--鼠标移入显示二级菜单-->
+				<div id = "sport">
+					<div id="sport-l">
+						<span id="Buybrand">品牌导购</span>
+						<span id="sneaker">
+							运动鞋
+							<ul id="sneakerul1">
+								
+							</ul>
+						</span>
+						
+				<!--运动服-->
+						<span id="sports">
+							运动服
+							<ul id="sportsul1">
+								
+							</ul>
+						</span>
+				<!--儿童-->
+				
+				<span id="children">
+					儿童专区
+					<ul id="childrenul">
+						
+					</ul>
+				</span>
+				<!--周边-->
+				<span id="rim">
+					运动周边
+					<ul id="rimul">
+						
+					</ul>
+				</span>
+					</div>
+					
+					<!--sport中间部分-->
+					
+					<div id="sport-con">
+						<span id="buysport">
+							运动导购
+						</span>
+						<span id="summer">
+							盛夏开练
+							<ul id="summerul">
+								
+							</ul>
+						</span>
+					
+						
+					<!--跑步运动-->
+						<span id="runsport">
+							跑步运动
+							<ul id="runul">
+								
+							</ul>
+						</span>
+				<!--	球类运动-->
+						<span id="ballsport">
+							球类运动
+							<ul id="ballul">
+																
+							</ul>
+						</span>
+						
+							
+						<!--健身-->
+						<span id="fitness">
+							健身/瑜伽/游泳
+							<ul id="fitnessul">
+																		
+							</ul>
+						</span>
+					</div>
+					<!--sport右边部分-->
+					
+					<div id="sport-r">
+						<span id="brand2">
+							品牌导购
+							<ul id="brand2ul2">
+								
+							</ul>
+						</span>
+					</div>
+				</div>
+				
+				<div class="">
+					
+				</div>
+			</div>
+		</div>
+
+	
+
+		<!--筛选框-->
+		<div id="filtrate">
+			<div id="filtrate-con">
+				<div class="box-top">
+					<div id="tit">
+						<span id="tit1">
+							好乐买 > <i>运动鞋</i> > <i>跑步鞋</i>
+						</span>
+						<input type="button" name="tit2" id="tit2" value="全部取消" />
+					</div>
+				<!--	性别-->
+					<div id="gender">
+						<span id="gen1">
+							性别:
+						</span>
+						<span id="gen2">
+							<i>全部</i>
+							<ul>
+								<li>男</li>
+								<li>女</li>
+							</ul>
+						</span>
+					</div>
+					
+					<!--品牌-->
+					<div class="brand">
+						<h5 class="brand1">品牌</h5>
+						<div id="brand-con">
+							<span class="brand-all">
+								<i class="brand-tit">全部</i>
+							</span>
+							<div class="brand2">
+								<ul class="brandul">
+									
+								</ul>
+								
+								<a class="brand-more">更多<span></span></a>
+								
+								<a class="brand-more2">收起<span></span></a>
+							</div>
+						</div>
+					</div>
+					
+					
+				<!--	尺码-->
+				<div class="size">
+						<h5 class="size1">尺码</h5>
+						<div id="size-con">
+							<span class="size-all">
+								<i class="size-tit">全部</i>
+							</span>
+							<div class="size2">
+								<ul class="sizeul">
+									<li></li>
+								</ul>
+								
+								<a class="size-more">更多<span></span></a>
+							</div>
+						</div>
+					</div>
+					
+					<!--颜色-->
+				<div class="color">
+						<h5 class="color1">颜色</h5>
+						<div id="color-con">
+							<span class="color-all">
+								<i class="color-tit">全部</i>
+							</span>
+							<div class="size2">
+								<ul class="sizeul">
+									<li></li>
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--足弓-->
+					<div class="footer-gong">
+						<h5 class="footer1">
+							足弓
+						</h5>
+						<div id="footer-con">
+							<span class="footer-all">
+								<i class="footer-tit">全部</i>
+							</span>
+							<div class="footer2">
+								<ul class="footerul">
+									<li>正常足弓</li>
+									<li>低足弓</li>
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--适合场地-->
+					<div class="site-gong">
+						<h5 class="site1">
+							适合场地
+						</h5>
+						<div id="site-con">
+							<span class="site-all">
+								<i class="site-tit">全部</i>
+							</span>
+							<div class="site2">
+								<ul class="siteul">
+									
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--功能-->
+					<div class="fun">
+						<h5 class="fun1">
+							功能
+						</h5>
+						<div id="fun-con">
+							<span class="fun-all">
+								<i class="fun-tit">全部</i>
+							</span>
+							<div class="fun2">
+								<ul class="funul">
+									
+								</ul>
+								
+								<a class="fun-more">更多<span></span></a>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<!--鞋帮-->
+					<div class="shoes-upper">
+						<h5 class="upper1">
+							鞋帮
+						</h5>
+						<div id="upper-con">
+							<span class="upper-all">
+								<i class="upper-tit">全部</i>
+							</span>
+							<div class="upper2">
+								<ul class="upperul">
+									<li>低帮</li>
+									<li>中帮</li>
+									<li>高帮</li>
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--材质-->
+					<div class="shoes-texture">
+						<h5 class="texture1">
+							鞋底材质
+						</h5>
+						<div id="texture-con">
+							<span class="texture-all">
+								<i class="texture-tit">全部</i>
+							</span>
+							<div class="texture2">
+								<ul class="textureul">
+									<li>橡胶底</li>
+									<li>耐磨橡胶</li>
+									<li>EVA</li>
+									<li>塑胶底</li>
+									<li>射出EVA复合底</li>
+									<li>硫化底</li>
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--本季潮流-->
+					<div class="shoes-trend">
+						<h5 class="trend1">
+							本季潮流
+						</h5>
+						<div id="trend-con">
+							<span class="trend-all">
+								<i class="trend-tit">全部</i>
+							</span>
+							<div class="trend2">
+								<ul class="trendul">
+									<li>弹力胶</li>
+									
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					
+					<!--代言人-->
+					<div class="spokesperson">
+						<h5 class="spokesperson1">
+							代言人
+						</h5>
+						<div id="spokesperson-con">
+							<span class="spokesperson-all">
+								<i class="spokesperson-tit">全部</i>
+							</span>
+							<div class="spokesperson2">
+								<ul class="spokespersonul">
+									<li>侃爷</li>
+									
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--科技-->
+					<div class="science">
+						<h5 class="science1">
+							科技
+						</h5>
+						<div id="science-con">
+							<span class="science-all">
+								<i class="science-tit">全部</i>
+							</span>
+							<div class="science2">
+								<ul class="scienceul">
+									<li>BoosT</li>
+									<li>易弯折</li>
+									<li>气垫</li>
+									<li>弹力胶</li>
+									<li>李宁弧</li>
+									
+									
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					<!--鞋面材质-->
+					<div class="vamp">
+						<h5 class="vamp1">
+							鞋面材质
+						</h5>
+						<div id="vamp-con">
+							<span class="vamp-all">
+								<i class="vamp-tit">全部</i>
+							</span>
+							<div class="vamp2">
+								<ul class="vampul">
+									
+									
+									
+								</ul>
+								<a class="vamp-more">更多<span></span></a>
+								
+							</div>
+						</div>
+					</div>
+					<!--季节-->
+					<div class="season">
+						<h5 class="season1">
+							季节
+						</h5>
+						<div id="season-con">
+							<span class="season-all">
+								<i class="season-tit">全部</i>
+							</span>
+							<div class="season2">
+								<ul class="seasonul">
+									
+									<li>春季</li>
+									<li>夏季</li>
+									<li>秋季</li>
+									<li>冬季</li>
+									
+									
+								</ul>
+								
+								
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+				
+				
+				<!--//价格-->
+				<div class="price">
+					<h5 class="price1">价格</h5>
+					<div class="price-con">
+						<div class="price-box">
+							<span>￥</span>
+							<input type="text" class="price-t1" />
+							
+						</div>
+						<span class="price-t2">-</span>
+						
+						<div class="price-box2">
+							<span>￥</span>
+							<input type="text" class="price-t3" />
+							
+						</div>
+					</div>
+				</div>
+			
+			
+			
+			
+			
+			
+			
+				
+			</div>
+			<button id="more">更多<i></i></button>
+			
+			<button id="more2">收起<i></i></button>
+			
+		</div>
+		<div class="clear-fix"></div>
+		
+		
+		
+		<!--选项卡-->
+		<div id="show">
+			<div id="show-con">
+				<div id="box1">
+					<div id="box-top">
+						<a name="sort"  val="" class="default">默认</a>
+						<a name="sort"  val="">价格</a>
+						<a name="sort"  val="">销量</a>
+						<a name="sort"  val="">最新</a>
+					</div>
+					
+					<div id="top-bottom">
+						<div class="div1">
+							<ul id="box2">
+								<!--//<li>-->
+								<!--	<img class = "img1"src="http://0.image.al.okbuycdn.com/nbn/s270_270/static/7085a841fc112e5484f8c09b1847c5e0.jpg" alt="" />
+									
+									<p class="glname">啦啦啦啦啦啦啦</p>
+									<p class="glprice">
+										<span class="okprice">￥299</span>
+										<span class="okprice2">(3折)</span>
+										<span class='okprice3'>999</span>
+									</p>
+									<p class="glsale">
+										<span class="sale-tag">特价</span>
+										有好货 特权好假
+									</p>
+								</li>-->
+							</ul>
+						</div>
+						
+						
+						<div style = 'display: none'> pppppppppppppppp</div>
+						<div style = 'display: none'>aaaaaaaaaaaaaaaaa</div>
+						
+						
+						<div style = 'display: none'>hhhhhhhhhhhhhhh</div>
+						
+						
+						
+					<!--	页面跳转-->
+						<div class="jump">
+							<span class="btn-box">
+								<a class="btn1">1</a>
+								<a class="btn2">2</a>
+								<a class="btn3">3</a>
+								<span class="right">
+									<a class="btn4"  >下一页</a>
+									<a class="btn5">尾页</a>
+								</span>
+							</span>
+							<span class="box-right">
+								共129页
+							</span>
+						</div>
+					
+						
+					</div>
+					<div class="clear-fix"></div>
+					
+					
+				</div>
+				
+					
+				</div>
+			</div>
+			<div class="clear-fix"></div>
+		</div>
+		<div class="clear-fix"></div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="bottom1">
+		<div id="bottom1-con">
+			<div id="qr">
+				<div id="qr1">
+					<img src="images/appqcode_2.png"/>
+					<span>
+						好乐买手机客户端
+					</span>
+				</div>
+				
+				<div id="qr2">
+					<img src="images/appqcode_2.png"/>
+					<span>
+						好乐买微信公众号
+					</span>
+				</div>
+				
+				
+			</div>
+			<div id="guide">
+					<span>
+						购物指南
+					</span>
+					<ul>
+						<li>购物流程</li>
+					    <li>订购方式</li>
+					    <li>常见问题</li>
+					</ul>
+			</div>
+			
+			<div id="guide2">
+					<span>
+						配送方式
+					</span>
+					<ul>
+						<li>快递配送</li>
+					    <li>配送时间</li>
+					    
+					</ul>
+			</div>
+			
+			<div id="guide3">
+					<span>
+						支付方式
+					</span>
+					<ul>
+						<li>支付方式</li>
+					    <li>代金券</li>
+					    
+					</ul>
+			</div>
+			
+			<div id="guide4">
+					<span>
+						售后服务
+					</span>
+					<ul>
+						<li>退换货政策</li>
+					    <li>退款说明</li>
+					    <li>联系客服</li>
+					</ul>
+			</div>
+			
+			<span id="pic1">
+				<img src="images/okbuy1-03.png"/>
+			</span>
+			
+			<span id="pic2">
+				<img src="images/okbuy1-05.png"/>
+			</span>
+			
+			<span id="pic3">
+				<img src="images/902c39b52902b3bd4ab500babad4e14a.png"/>
+			</span>
+			
+			<span id="pic4">
+				<img src="images/bjwj(3).jpg"/>
+			</span>
+			
+			<ul id="introduce">
+				<li>公司介绍</li>
+				<li>加入我们</li>
+				<li>联系我们</li>
+				<li>友情链接</li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id="bottom2">
+		<div id="bottom2-con">
+			<span>天津好乐买信息技术有限公司 Copyright © 2007-2018 OkBuy.com All Rights Reserved</span>
+			<h2>津ICP备16005872号-1</h2>
+			<h3>京公网安备110105006859</h3>
+			<h4>客服电话：400-8610-400</h4>
+		</div>
+	</div>
+	
+	<script>
+		$(function(){
+		ListJson();
+	})
+	</script>
+	</body>
+</html>
